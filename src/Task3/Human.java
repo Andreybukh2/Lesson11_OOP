@@ -10,6 +10,12 @@ package Task3;
         Имя: Игорь, пол: мужской, возраст: 2, отец: Михаил, мать: Аня
  */
 public class Human {
+    public String name;
+    public boolean gender;
+    public int age;
+    public Human father;
+    public Human mother;
+
     public Human(String name, boolean gender, int age, Human father, Human mother) {
         this.name = name;
         this.gender = gender;
@@ -17,13 +23,6 @@ public class Human {
         this.father = father;
         this.mother = mother;
     }
-
-    public String name;
-    public boolean gender;
-    public int age;
-    public Human father;
-    public Human mother;
-
     @Override
     public String toString() {
         return "Human{" +
@@ -34,5 +33,4 @@ public class Human {
                 ", mother=" + mother +
                 '}';
     }
-
 }

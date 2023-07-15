@@ -34,9 +34,9 @@ public class Person {
     public Person() {
     }
     public void move () {
-        System.out.println("Такой-то  Person двигается ");
+        System.out.println("Такой-то Person двигается ");
     }
     public void talk () {
-        System.out.println("Такой-то  Person говорит ");
+        System.out.println("Такой-то Person говорит ");
     }
 }
